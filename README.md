@@ -14,7 +14,7 @@ IS_TOO_NUMERIC - an SQL function that determines if a string is too numeric base
 
 A customer once wanted to reject alphanumeric strings that had too many digits in them. I don't recall the exact reason, but this
 function was the end result. To give as much flexibility as possible, we left it up to the customer to define what they considered 
-to be "too numeric" or put another way, this string contains too many digits for its length. 
+to be "too numeric" or put another way, decalare that a string contains too many digits for its length. 
 
 If a string is considered too numeric when it has a ratio of numeric characters to the overall length greater than say 0.3, then 
 set @THRESHOLD to that value and @TEST_STR to whatever string you want to test. What one chooses to do with strings that are too 
