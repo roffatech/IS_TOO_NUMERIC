@@ -1,4 +1,4 @@
-IS_TOO_NUMERIC - an SQL function that determines if a string is too numeric based on comparison to a threshold. 
+IS_TOO_NUMERIC - an SQL Server function that determines if a string is too numeric based on comparison to a threshold. 
 
   FUNCTION IS_TOO_NUMERIC(@TEST_STR varchar(255), @THRESHOLD decimal(15,4)) RETURNS bit
 
