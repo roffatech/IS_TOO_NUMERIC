@@ -2,7 +2,7 @@ IS_TOO_NUMERIC - an SQL function that determines if a string is too numeric base
 
   FUNCTION IS_TOO_NUMERIC(@TEST_STR varchar(255), @THRESHOLD decimal(15,4)) RETURNS bit
 
-  @TEST_STR   the string of numeric and non-numeric that will be evaluated.
+  @TEST_STR   the string of numeric and non-numeric chars that will be evaluated.
   @THRESHOLD  The maximum allowed ratio of numeric characters to the entire string length expressed as a decimal number.
 
   Returns 1 if the string is 'too numeric', i.e. the ration of numeric characters in @TEST_STR to the entire string is greater
